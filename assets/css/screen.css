@@ -34,6 +34,33 @@ figcaption {
     "library-link speech-link"
     "courses-link projects-link";
   text-align: center;
+  padding-top: 2%;
+}
+/* code for page links*/
+
+a {
+  font-family: Flavors, cursive;
+  outline: none;
+  text-decoration: none;
+  color: pink;
+}
+#navigation a {
+  background-color: ghostwhite; /* BACKGROUND COLOR CODE */
+  border: 1px solid #90876b;
+  border-radius: .5em;
+  color: pink;
+  font-family: Flavors, cursive;
+  padding: .178em .178em;
+  text-align: center;
+  text-decoration: none;
+}
+#main-nav li {
+  font-size: 1.999em;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2.5%;
+  margin-bottom: 6%;
+  padding: 2%;
 }
 #nav-hom {
   grid-area: home-link;
@@ -75,17 +102,8 @@ figcaption {
   grid-area: projects-link;
   text-shadow: 2px 2px black;
 }
-/* code for page links*/
-a {
-  font-family: Flavors, cursive;
-  outline: none;
-  text-decoration: none;
-  color: pink;
-}
-#main-nav li {
-  background-color: aliceblue;
-  padding: 2%;
-  margin: .5%;
+#nav-cou, #nav-pro {
+  margin-bottom: 2.5%;
 }
 
 #home #nav-hom,
@@ -100,25 +118,23 @@ a {
 #projects #nav-pro,
 nav a:hover,
 nav a:active{
-  background: green;
+  background: darkred;
   color: white;
 }
 /*Grid code for footer*/
 #footer {
   color: white;
-  display: grid;
   font-family: "Emilys Candy", cursive;
-  grid-template-areas:
-    "foot-grid";
-  grid-template-columns: repeat(1, 1fr);
+  background-color: rgba(0, 128, 128, 0.7); /* BACKGROUND COLOR CODE */
   /*cute curly display typeface, same as name */
 }
-footer section {
-  background-color: rgba(0, 128, 128, 0.7); /* BACKGROUND COLOR CODE */
+#foot-text {
+  font-size: 2.665em;
 }
-#foot-box {
-  grid-area: foot-grid;
+#list-of-media {
+  font-size: 1.5em;
 }
+/*styles for headings*/
 h1 {
   color: azure;
   display: flex;
