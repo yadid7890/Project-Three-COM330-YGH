@@ -25,7 +25,7 @@ figcaption {
   font-size: 1em;
   line-height: 1.222em;
 }
-/*Grid code for menu*/
+/*Grid code for main navigation*/
 #navigation {
   background-color: rgba(0, 128, 128, 0.7); /* BACKGROUND COLOR CODE */
   display: grid;
@@ -84,19 +84,19 @@ a {
   outline: none;
   text-decoration: none;
 }
-a:link {
-  color: pink;
-}
-a:visited {
-  color: darkturquoise;
-}
-a:focus {
-  background: darkturquoise;
-}
-a:hover {
-  background: azure;
-  border-bottom: solid;
-}
-a:active {
-  background: darkturquoise;
+
+#home #nav-hom,
+#about #nav-abo,
+#doggos #nav-dog,
+#education #nav-edu,
+#skills #nav-ski,
+#hobbies #nav-hob,
+#library #nav-lib,
+#speeches #nav-spe,
+#courses #nav-cou,
+#projects #nav-pro,
+nav a:hover,
+nav a:active{
+  background: green;
+  color: white;
 }
