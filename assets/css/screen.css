@@ -16,11 +16,10 @@ html {
 /*responsive image code */
 img {
   display: block;
-  max-width: 80%;
+  max-width: 100%;
 }
 figcaption {
   color: ghostwhite;
-  display: block;
   font-family: "EB Garamond", serif;
 }
 /*Grid code for main navigation*/
@@ -38,43 +37,43 @@ figcaption {
 }
 #nav-hom {
   grid-area: home-link;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
 #nav-abo {
   grid-area: about-link;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
 #nav-edu {
   grid-area: edu-link;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
 #nav-ski {
   grid-area: skill-link;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
 #nav-hob {
   grid-area: hobbies-link;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
 #nav-dog {
   grid-area: dogs-link;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
 #nav-lib {
   grid-area: library-link;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
 #nav-spe {
   grid-area: speech-link;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
 #nav-cou {
   grid-area: courses-link;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
 #nav-pro {
   grid-area: projects-link;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
 /* code for page links*/
 a {
@@ -123,7 +122,7 @@ h1 {
 }
 h2 {/*will need to edit this in the media queries*/
   font-family: "Emilys Candy", cursive;
-  text-shadow: 4px 2px black;
+  text-shadow: 2px 2px black;
 }
 article p {
   color: ghostwhite;
@@ -183,14 +182,11 @@ article p {
 
 /*style for social media links*/
 #email {
-  font-size: 0.3em;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
 #git {
-  font-size: 0.3em;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
 #linkedin {
-  font-size: 0.3em;
-  text-shadow: 5px 3px black;
+  text-shadow: 2px 2px black;
 }
