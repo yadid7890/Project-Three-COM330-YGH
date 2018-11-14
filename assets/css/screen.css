@@ -22,8 +22,6 @@ figcaption {
   color: ghostwhite;
   display: block;
   font-family: "EB Garamond", serif;
-  font-size: 1em;
-  line-height: 1.222em;
 }
 /*Grid code for main navigation*/
 #navigation {
@@ -99,4 +97,100 @@ nav a:hover,
 nav a:active{
   background: green;
   color: white;
+}
+/*Grid code for footer*/
+#footer {
+  color: white;
+  display: grid;
+  font-family: "Emilys Candy", cursive;
+  grid-template-areas:
+    "foot-grid";
+  grid-template-columns: repeat(1, 1fr);
+  /*cute curly display typeface, same as name */
+}
+footer section {
+  background-color: rgba(0, 128, 128, 0.7); /* BACKGROUND COLOR CODE */
+}
+#foot-box {
+  grid-area: foot-grid;
+}
+h1 {
+  color: azure;
+  display: flex;
+  flex-wrap: row wrap;
+  font-family: "Emilys Candy", cursive;
+  /*cute curly display typeface */
+}
+h2 {/*will need to edit this in the media queries*/
+  font-family: "Emilys Candy", cursive;
+  text-shadow: 4px 2px black;
+}
+article p {
+  color: ghostwhite;
+  font-family: "EB Garamond", serif;
+}
+#skill-list, #dog-list {
+  color: ghostwhite;
+  font-family: "EB Garamond", serif;
+  list-style: circle;
+}
+#hobbies-list > li {
+  color: ghostwhite;
+  font-family: "EB Garamond", serif;
+  list-style: circle;
+}
+/*style for content*/
+#about-box {
+  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
+  color: darkturquoise;
+}
+#edu-box {
+  background-color: rgba(240, 67, 113, 0.5); /* BACKGROUND COLOR CODE */
+  color: darkturquoise;
+}
+#skill-box {
+  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
+  color: darkturquoise;
+}
+#hobbies-box {
+  background-color: rgba(240, 67, 113, 0.5); /* BACKGROUND COLOR CODE */
+  color: darkturquoise;
+}
+#dogs-box {
+  background: content-box radial-gradient(crimson, teal);
+  color: pink;
+}
+#library-box {
+  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
+  color: darkturquoise;
+}
+#speech-box {
+  background-color: rgba(158, 53, 123, 0.5); /* BACKGROUND COLOR CODE */
+  color: darkturquoise;
+}
+#photo-space-box {
+  background-color: rgba(240, 67, 113, 0.5); /* BACKGROUND COLOR CODE */
+  color: darkturquoise;
+}
+#courses-box {
+  background-color: rgba(240, 67, 113, 0.5); /* BACKGROUND COLOR CODE */
+  color: darkturquoise;
+}
+#projects-box {
+  background-color: rgba(240, 67, 113, 0.5); /* BACKGROUND COLOR CODE */
+  color: darkturquoise;
+}
+
+/*style for social media links*/
+#email {
+  font-size: 0.3em;
+  text-shadow: 5px 3px black;
+}
+#git {
+  font-size: 0.3em;
+  text-shadow: 5px 3px black;
+}
+#linkedin {
+  font-size: 0.3em;
+  text-shadow: 5px 3px black;
 }
