@@ -9,6 +9,94 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 https://www.modularscale.com/?16&px&1.333
 1em=16px
 /* Begin site styles below */
+/*background code*/
 html {
   background-image: url("../img/red-back.jpg"); /*Code for HTML*/
+}
+/*responsive image code */
+img {
+  display: block;
+  max-width: 80%;
+}
+figcaption {
+  color: ghostwhite;
+  display: block;
+  font-family: "EB Garamond", serif;
+  font-size: 1em;
+  line-height: 1.222em;
+}
+/*Grid code for menu*/
+#navigation {
+  background-color: rgba(0, 128, 128, 0.7); /* BACKGROUND COLOR CODE */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "home-link about-link"
+    "edu-link skill-link"
+    "hobbies-link dogs-link"
+    "library-link speech-link"
+    "courses-link projects-link";
+  text-align: center;
+}
+#nav-hom {
+  grid-area: home-link;
+  text-shadow: 5px 3px black;
+}
+#nav-abo {
+  grid-area: about-link;
+  text-shadow: 5px 3px black;
+}
+#nav-edu {
+  grid-area: edu-link;
+  text-shadow: 5px 3px black;
+}
+#nav-ski {
+  grid-area: skill-link;
+  text-shadow: 5px 3px black;
+}
+#nav-hob {
+  grid-area: hobbies-link;
+  text-shadow: 5px 3px black;
+}
+#nav-dog {
+  grid-area: dogs-link;
+  text-shadow: 5px 3px black;
+}
+#nav-lib {
+  grid-area: library-link;
+  text-shadow: 5px 3px black;
+}
+#nav-spe {
+  grid-area: speech-link;
+  text-shadow: 5px 3px black;
+}
+#nav-cou {
+  grid-area: courses-link;
+  text-shadow: 5px 3px black;
+}
+#nav-pro {
+  grid-area: projects-link;
+  text-shadow: 5px 3px black;
+}
+/* code for page links*/
+a {
+  font-family: Flavors, cursive;
+  outline: none;
+  text-decoration: none;
+}
+a:link {
+  color: pink;
+}
+a:visited {
+  color: darkturquoise;
+}
+a:focus {
+  background: darkturquoise;
+}
+a:hover {
+  background: azure;
+  border-bottom: solid;
+}
+a:active {
+  background: darkturquoise;
 }
