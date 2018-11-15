@@ -8,6 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /*Use modularscale perfect fourth 3:4
 https://www.modularscale.com/?18&px&1.333
 1em=18px
+line height at 130%= 1.3em
 /* Begin site styles below */
 /*background code*/
 html {
@@ -141,6 +142,7 @@ h1 {
   flex-wrap: wrap;
   font-family: "Emilys Candy", cursive;
   font-size: 3.552em;
+  line-height: 1.3em;
   /*cute curly display typeface */
 }
 h2 {/*will need to edit this in the media queries*/
