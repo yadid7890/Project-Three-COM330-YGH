@@ -140,7 +140,7 @@ a[href="#main-nav"] {
 /*styles for headings*/
 h1 {
   background-color: rgba(155, 62, 92, 0.5); /* BACKGROUND COLOR CODE */
-  color: #1a4041;
+  color: #0a1819;
   display: flex;
   flex-wrap: wrap;
   font-family: "Emilys Candy", cursive;
@@ -151,7 +151,7 @@ h1 {
 }
 h2 {/*will need to edit this in the media queries*/
   background-color: rgba(155, 62, 92, 0.5); /* BACKGROUND COLOR CODE */
-  color: #1a4041;
+  color: #0a1819;
   font-family: "Emilys Candy", cursive;
   font-size: 2.665em;
   line-height: 1.3em;
@@ -159,7 +159,7 @@ h2 {/*will need to edit this in the media queries*/
 }
 h3 {
   background-color: rgba(155, 62, 92, 0.5); /* BACKGROUND COLOR CODE */
-  color: #1a4041;
+  color: #0a1819;
   font-family: "Emilys Candy", cursive;
   font-size: 1.999em;
   line-height: 1.3em;
@@ -208,8 +208,7 @@ b {
 #library-box,
 #speech-box,
 #skill-box,
-#projects-box,
- {
+#projects-box {
   background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
 }
 /*code for courses page's navigation bar
@@ -234,7 +233,7 @@ and its content*/
   line-height: 1.3em;
 }
 .class-list {
-  background-color: white;
+  color: #EBE8FF;
 }
 /*code for projects page's navigation bar
 and its content*/
