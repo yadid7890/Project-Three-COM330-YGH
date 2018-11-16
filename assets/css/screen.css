@@ -22,6 +22,8 @@ img {
 figcaption {
   color: ghostwhite;
   font-family: "EB Garamond", serif;
+  line-height: 1.3em;
+  padding-bottom: 3%;
 }
 /*Grid code for main navigation*/
 #navigation {
@@ -38,7 +40,6 @@ figcaption {
   padding-top: 2%;
 }
 /* code for page links*/
-
 a {
   color: pink;
   outline: none;
@@ -122,11 +123,11 @@ nav a:active{
 #footer {
   color: white;
   background-color: rgba(0, 128, 128, 0.7); /* BACKGROUND COLOR CODE */
-  font-family: "Emilys Candy", cursive;
   /*cute curly display typeface, same as name */
   padding: 3%;
 }
 #foot-text {
+  font-family: "Emilys Candy", cursive;
   font-size: 2.665em;
   line-height: 1.3em
 }
@@ -149,8 +150,10 @@ h1 {
   /*cute curly display typeface */
 }
 h2 {/*will need to edit this in the media queries*/
+  background-color: tan;
   font-family: "Emilys Candy", cursive;
   font-size: 2.665em;
+  line-height: 1.3em;
   text-shadow: 2px 2px black;
 }
 article p {
@@ -158,6 +161,7 @@ article p {
   font-family: "EB Garamond", serif;
   font-size: 1.125em;
   line-height: 1.3em;
+  padding-bottom: 1.5%:
 }
 #skill-list, #dog-list {
   color: ghostwhite;
@@ -170,6 +174,7 @@ article p {
   color: ghostwhite;
   font-family: "EB Garamond", serif;
   font-size: 1.125em;
+  line-height: 1.3em;
   list-style: circle;
 }
 /*style for content*/
@@ -223,7 +228,20 @@ article p {
   color: darkturquoise;
   padding: 3%;
 }
-
+/*code for courses page's navigation bar
+and its content*/
+#course-nav {
+  background-color: black; /* BACKGROUND COLOR CODE */
+  display: flex;
+  flex-wrap: row wrap;
+}
+.class-name-link {
+  font-size: 1.125em;
+  line-height: 1.3em;
+}
+.class-list {
+  background-color: white;
+}
 /*style for social media links*/
 #email {
   text-shadow: 2px 2px black;
