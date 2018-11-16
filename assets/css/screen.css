@@ -41,7 +41,7 @@ figcaption {
 }
 /* code for page links*/
 a {
-  color: #ca6378;
+  color: #F6D6DD;
   outline: none;
   text-decoration: none;
 }
@@ -103,7 +103,6 @@ a {
 #nav-cou, #nav-pro {
   margin-bottom: 2.5%;
 }
-
 #home #nav-hom,
 #about #nav-abo,
 #doggos #nav-dog,
@@ -141,7 +140,7 @@ a[href="#main-nav"] {
 /*styles for headings*/
 h1 {
   background-color: rgba(155, 62, 92, 0.5); /* BACKGROUND COLOR CODE */
-  color: #235759;
+  color: #1a4041;
   display: flex;
   flex-wrap: wrap;
   font-family: "Emilys Candy", cursive;
@@ -152,19 +151,19 @@ h1 {
 }
 h2 {/*will need to edit this in the media queries*/
   background-color: rgba(155, 62, 92, 0.5); /* BACKGROUND COLOR CODE */
-  color: #235759;
+  color: #1a4041;
   font-family: "Emilys Candy", cursive;
   font-size: 2.665em;
   line-height: 1.3em;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
 }
 h3 {
   background-color: rgba(155, 62, 92, 0.5); /* BACKGROUND COLOR CODE */
-  color: #235759;
+  color: #1a4041;
   font-family: "Emilys Candy", cursive;
   font-size: 1.999em;
   line-height: 1.3em;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
 }
 article p {
   color: #EBE8FF;
@@ -200,34 +199,17 @@ b {
   font-weight: bold;
 }
 /*style for content*/
-#about-box {
-  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
-}
-#edu-box {
-  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
-}
-#skill-box {
-  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
-}
-#hobbies-box {
-  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
-}
-#dogs-box {
-  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
-}
-#library-box {
-  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
-}
-#speech-box {
-  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
-}
-#photo-space-box {
-  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
-}
-#courses-box {
-  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
-}
-#projects-box {
+#about-box p,
+#photo-space-box p,
+.class-list,
+#dogs-box,
+#edu-box,
+#hobbies-box,
+#library-box,
+#speech-box,
+#skill-box,
+#projects-box,
+ {
   background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
 }
 /*code for courses page's navigation bar
@@ -270,9 +252,6 @@ and its content*/
   padding: .178em .563em;
   line-height: 1.3em;
 }
-.info-list-projects {
-  background-color: white;
-}
 /*style for social media links*/
 #email {
   text-shadow: 1px 1px black;
@@ -285,7 +264,7 @@ and its content*/
 }
 /*style for back button*/
 #back {
-  color: #ca6378;
+  color: #F6D6DD;
   float: right;
   font-size: 1.125em;
   text-shadow: 1px 1px black;
