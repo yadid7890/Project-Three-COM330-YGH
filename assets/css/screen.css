@@ -169,12 +169,19 @@ article p {
   line-height: 1.3em;
   padding-bottom: 3%;
 }
-#skill-list, #dog-list {
+#skill-list {
   color: ghostwhite;
   font-family: "EB Garamond", serif;
   font-size: 1.125em;
   line-height: 1.3em;
   list-style: circle;
+  padding-left: 3%;
+}
+#dog-list li {
+  color: ghostwhite;
+  font-family: "EB Garamond", serif;
+  font-size: 1.125em;
+  line-height: 1.3em;
   padding-left: 3%;
 }
 #hobbies-list > li {
@@ -232,9 +239,19 @@ b {
 /*code for courses page's navigation bar
 and its content*/
 #course-nav {
-  background-color: black; /* BACKGROUND COLOR CODE */
+  background-color: tan; /* BACKGROUND COLOR CODE */
   display: flex;
   flex-wrap: row wrap;
+  font-size: 1.125em;
+}
+#course-nav a {
+  border: 1px solid #90876b;
+  border-radius: .5em;
+  padding: 1%;
+}
+#course-nav li {
+  padding: .178em .563em;
+  line-height: 1.3em;
 }
 .class-name-link {
   font-size: 1.125em;
@@ -246,9 +263,18 @@ and its content*/
 /*code for projects page's navigation bar
 and its content*/
 #project-nav {
-  background-color: black; /* BACKGROUND COLOR CODE */
+  background-color: tan; /* BACKGROUND COLOR CODE */
   display: flex;
   flex-wrap: row wrap;
+}
+#project-nav a {
+  border: 1px solid #90876b;
+  border-radius: .5em;
+  padding: 1%;
+}
+#project-nav li {
+  padding: .178em .563em;
+  line-height: 1.3em;
 }
 .info-list-projects {
   background-color: white;
