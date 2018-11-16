@@ -155,12 +155,19 @@ h2 {/*will need to edit this in the media queries*/
   line-height: 1.3em;
   text-shadow: 2px 2px black;
 }
+h3 {
+  color: purple;
+  font-family: "Emilys Candy", cursive;
+  font-size: 1.999em;
+  line-height: 1.3em;
+  text-shadow: 2px 2px black;
+}
 article p {
   color: ghostwhite;
   font-family: "EB Garamond", serif;
   font-size: 1.125em;
   line-height: 1.3em;
-  padding-bottom: 1.5%:
+  padding-bottom: 3%;
 }
 #skill-list, #dog-list {
   color: ghostwhite;
@@ -168,6 +175,7 @@ article p {
   font-size: 1.125em;
   line-height: 1.3em;
   list-style: circle;
+  padding-left: 3%;
 }
 #hobbies-list > li {
   color: ghostwhite;
@@ -175,57 +183,51 @@ article p {
   font-size: 1.125em;
   line-height: 1.3em;
   list-style: circle;
+  padding-bottom: 1.5%;
+}
+b {
+  font-weight: bold;
 }
 /*style for content*/
 #about-box {
   background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
   color: darkturquoise;
-  padding: 3%;
 }
 #edu-box {
   background-color: rgba(240, 67, 113, 0.5); /* BACKGROUND COLOR CODE */
   color: darkturquoise;
-  padding: 3%;
 }
 #skill-box {
   background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
   color: darkturquoise;
-  padding: 3%;
 }
 #hobbies-box {
   background-color: rgba(240, 67, 113, 0.5); /* BACKGROUND COLOR CODE */
   color: darkturquoise;
-  padding: 3%;
 }
 #dogs-box {
   background: content-box radial-gradient(crimson, teal);
   color: pink;
-  padding: 3%;
 }
 #library-box {
   background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
   color: darkturquoise;
-  padding: 3%;
 }
 #speech-box {
   background-color: rgba(158, 53, 123, 0.5); /* BACKGROUND COLOR CODE */
   color: darkturquoise;
-  padding: 3%;
 }
 #photo-space-box {
   background-color: rgba(240, 67, 113, 0.5); /* BACKGROUND COLOR CODE */
   color: darkturquoise;
-  padding: 3%;
 }
 #courses-box {
   background-color: rgba(240, 67, 113, 0.5); /* BACKGROUND COLOR CODE */
   color: darkturquoise;
-  padding: 3%;
 }
 #projects-box {
   background-color: rgba(240, 67, 113, 0.5); /* BACKGROUND COLOR CODE */
   color: darkturquoise;
-  padding: 3%;
 }
 /*code for courses page's navigation bar
 and its content*/
