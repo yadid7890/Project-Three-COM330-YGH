@@ -150,7 +150,6 @@ h1 {
   /*cute curly display typeface */
 }
 h2 {/*will need to edit this in the media queries*/
-  background-color: tan;
   font-family: "Emilys Candy", cursive;
   font-size: 2.665em;
   line-height: 1.3em;
@@ -242,6 +241,16 @@ and its content*/
 .class-list {
   background-color: white;
 }
+/*code for projects page's navigation bar
+and its content*/
+#project-nav {
+  background-color: black; /* BACKGROUND COLOR CODE */
+  display: flex;
+  flex-wrap: row wrap;
+}
+.info-list-projects {
+  background-color: white;
+}
 /*style for social media links*/
 #email {
   text-shadow: 2px 2px black;
@@ -251,4 +260,20 @@ and its content*/
 }
 #linkedin {
   text-shadow: 2px 2px black;
+}
+/*style for back button*/
+#back {
+  color: pink;
+  float: right;
+  font-size: 1.125em;
+  text-shadow: 2px 2px black;
+  background-color: ghostwhite; /* BACKGROUND COLOR CODE */
+  border: 3px solid #90876b;
+  border-radius: .5em;
+  padding: .178em .563em;
+}
+#back a:hover,
+#back a:active {
+  background: darkred;
+  color: white;
 }
