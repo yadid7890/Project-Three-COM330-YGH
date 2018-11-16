@@ -48,8 +48,8 @@ a {
 #navigation a {
   background-color: #CA6378; /* BACKGROUND COLOR CODE */
   border: 2px solid #9B3E5C;
-  border-radius: .5em;
-  padding: .178em .563em;
+  border-radius: 0.5em;
+  padding: 0.178em 0.563em;
   text-align: center;
 }
 #main-nav li {
@@ -114,7 +114,7 @@ a {
 #courses #nav-cou,
 #projects #nav-pro,
 nav a:hover,
-nav a:active{
+nav a:active {
   background-color: rgba(149, 20, 30, 0.7); /* BACKGROUND COLOR CODE */
   color: #EBE8FF;
 }
@@ -128,11 +128,11 @@ nav a:active{
 #foot-text {
   font-family: "Emilys Candy", cursive;
   font-size: 2.665em;
-  line-height: 1.3em
+  line-height: 1.3em;
 }
 #list-of-media {
   font-size: 1.5em;
-  line-height: 1.3em
+  line-height: 1.3em;
 }
 a[href="#main-nav"] {
   text-align: center;
@@ -221,11 +221,11 @@ and its content*/
 }
 #course-nav a {
   border: 1px solid #90876b;
-  border-radius: .5em;
+  border-radius: 0.5em;
   padding: 1%;
 }
 #course-nav li {
-  padding: .178em .563em;
+  padding: 0.178em 0.563em;
   line-height: 1.3em;
 }
 .class-name-link {
@@ -244,11 +244,11 @@ and its content*/
 }
 #project-nav a {
   border: 1px solid #90876b;
-  border-radius: .5em;
+  border-radius: 0.5em;
   padding: 1%;
 }
 #project-nav li {
-  padding: .178em .563em;
+  padding: 0.178em 0.563em;
   line-height: 1.3em;
 }
 /*style for social media links*/
@@ -270,7 +270,7 @@ and its content*/
   background-color: #CA6378; /* BACKGROUND COLOR CODE */
   border: 2px solid #9B3E5C;
   border-radius: .5em;
-  padding: .178em .563em;
+  padding: 0.178em 0.563em;
 }
 #back a:hover,
 #back a:active {
