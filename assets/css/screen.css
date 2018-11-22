@@ -20,7 +20,7 @@ img {
   max-width: 100%;
 }
 figcaption {
-  color: #EBE8FF;
+  color: #D69FBD;
   font-family: "EB Garamond", serif;
   line-height: 1.3em;
   padding-bottom: 3%;
@@ -31,7 +31,8 @@ figcaption {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-    "home-link about-link"
+    "home-link ."
+    ". ."
     "edu-link skill-link"
     "hobbies-link dogs-link"
     "library-link speech-link"
@@ -62,10 +63,6 @@ a {
 }
 #nav-hom {
   grid-area: home-link;
-  text-shadow: 2px 2px black;
-}
-#nav-abo {
-  grid-area: about-link;
   text-shadow: 2px 2px black;
 }
 #nav-edu {
@@ -104,7 +101,6 @@ a {
   margin-bottom: 2.5%;
 }
 #home #nav-hom,
-#about #nav-abo,
 #doggos #nav-dog,
 #education #nav-edu,
 #skills #nav-ski,
@@ -147,15 +143,8 @@ h1 {
   font-size: 3.552em;
   line-height: 1.3em;
   padding-left: 3%;
-  /*cute curly display typeface */
-}
-h2 {/*will need to edit this in the media queries*/
-  background-color: rgba(155, 62, 92, 0.5); /* BACKGROUND COLOR CODE */
-  color: #0a1819;
-  font-family: "Emilys Candy", cursive;
-  font-size: 2.665em;
-  line-height: 1.3em;
   text-shadow: 1px 1px black;
+  /*cute curly display typeface */
 }
 h3 {
   background-color: rgba(155, 62, 92, 0.5); /* BACKGROUND COLOR CODE */
