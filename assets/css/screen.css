@@ -14,7 +14,7 @@ line height at 130%= 1.3em
 html {
   background-image: url("../img/red-back.jpg"); /*Code for HTML*/
 }
-/*responsive image code */
+/*responsive image and video code*/
 img {
   display: block;
   max-width: 100%;
@@ -23,6 +23,10 @@ figcaption {
   color: #EBE8FF;
   font-family: "EB Garamond", serif;
   line-height: 1.3em;
+  padding: 3%;
+}
+video {
+  max-width: 100%;
   padding: 3%;
 }
 /*Grid code for main navigation*/
