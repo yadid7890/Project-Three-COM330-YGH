@@ -20,10 +20,10 @@ img {
   max-width: 100%;
 }
 figcaption {
-  color: #D69FBD;
+  color: #EBE8FF;
   font-family: "EB Garamond", serif;
   line-height: 1.3em;
-  padding-bottom: 3%;
+  padding: 3%;
 }
 /*Grid code for main navigation*/
 #navigation {
@@ -31,8 +31,7 @@ figcaption {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-    "home-link ."
-    ". ."
+    "home-link . "
     "edu-link skill-link"
     "hobbies-link dogs-link"
     "library-link speech-link"
@@ -117,7 +116,7 @@ nav a:active {
 /*Grid code for footer*/
 #footer {
   color: #EBE8FF;
-  background-color: rgba(35, 87, 89, 0.7); /* BACKGROUND COLOR CODE */
+  background-color: rgba(28, 81, 93, 0.7); /* BACKGROUND COLOR CODE */
   /*cute curly display typeface, same as name */
   padding: 3%;
 }
@@ -136,7 +135,7 @@ a[href="#main-nav"] {
 /*styles for headings*/
 h1 {
   background-color: rgba(155, 62, 92, 0.5); /* BACKGROUND COLOR CODE */
-  color: #0a1819;
+  color: #1C515D;
   display: flex;
   flex-wrap: wrap;
   font-family: "Emilys Candy", cursive;
@@ -159,7 +158,7 @@ article p {
   font-family: "EB Garamond", serif;
   font-size: 1.125em;
   line-height: 1.3em;
-  padding-bottom: 3%;
+  padding: 3%;
 }
 #skill-list {
   color: #EBE8FF;
@@ -167,14 +166,17 @@ article p {
   font-size: 1.125em;
   line-height: 1.3em;
   list-style: circle;
-  padding-left: 3%;
+  padding-top: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-left: 6%;
 }
 #dog-list li {
   color: #EBE8FF;
   font-family: "EB Garamond", serif;
   font-size: 1.125em;
   line-height: 1.3em;
-  padding-left: 3%;
+  padding: 3%;
 }
 #hobbies-list > li {
   color: #EBE8FF;
@@ -182,7 +184,7 @@ article p {
   font-size: 1.125em;
   line-height: 1.3em;
   list-style: circle;
-  padding-bottom: 1.5%;
+  padding: 1.5%;
 }
 b {
   font-weight: bold;
@@ -202,43 +204,152 @@ b {
 }
 /*code for courses page's navigation bar
 and its content*/
-#course-nav {
-  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
-  display: flex;
-  flex-wrap: row wrap;
-  font-size: 1.125em;
+#course-list {
+  background-color: rgba(85, 130, 141, 0.7); /* BACKGROUND COLOR CODE */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "com-link cs-link "
+    "econ-link hist-link"
+    "ipro-link itmd-link"
+    "math-link phil-link"
+    "ps-link psyc-link"
+    "soc-link ssci-link";
+  text-align: center;
+  padding-top: 2%;
 }
 #course-nav a {
-  border: 1px solid #90876b;
+  background-color: #CA6378; /* BACKGROUND COLOR CODE */
+  border: 2px solid #9B3E5C;
   border-radius: 0.5em;
-  padding: 1%;
+  padding: 0.178em 0.563em;
+  text-align: center;
 }
 #course-nav li {
-  padding: 0.178em 0.563em;
-  line-height: 1.3em;
+  font-size: 1.2em;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2.5%;
+  margin-bottom: 6%;
+  padding: 2%;
 }
+a[href="#com"] {
+  grid-area: com-link;
+  text-shadow: 1px 1px black;
+}
+a[href="#cs"] {
+  grid-area: cs-link;
+  text-shadow: 1px 1px black;
+}
+a[href="#econ"] {
+  grid-area: econ-link;
+  text-shadow: 1px 1px black;
+}
+a[href="#hist"] {
+  grid-area: hist-link;
+  text-shadow: 1px 1px black;
+}
+a[href="#ipro"] {
+  grid-area: ipro-link;
+  text-shadow: 1px 1px black;
+}
+a[href="#itmd"] {
+  grid-area: itmd-link;
+  text-shadow: 1px 1px black;
+}
+a[href="#math"] {
+  grid-area: math-link;
+  text-shadow: 1px 1px black;
+}
+a[href="#phil"] {
+  grid-area: phil-link;
+  text-shadow: 1px 1px black;
+}
+a[href="#ps"] {
+  grid-area: ps-link;
+  text-shadow: 1px 1px black;
+}
+a[href="#psyc"] {
+  grid-area: psyc-link;
+  text-shadow: 1px 1px black;
+}
+a[href="#soc"] {
+  grid-area: soc-link;
+  text-shadow: 1px 1px black;
+}
+a[href="#ssci"] {
+  grid-area: ssci-link;
+  text-shadow: 1px 1px black;
+}
+
 .class-name-link {
   font-size: 1.125em;
   line-height: 1.3em;
 }
 .class-list {
   color: #EBE8FF;
+  padding: 3%;
 }
 /*code for projects page's navigation bar
 and its content*/
-#project-nav {
-  background-color: rgba(204, 0, 82, 0.5); /* BACKGROUND COLOR CODE */
-  display: flex;
-  flex-wrap: row wrap;
+#project-list {
+  background-color: rgba(85, 130, 141, 0.7); /* BACKGROUND COLOR CODE */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "bus-link rac-link "
+    "fly-link log-link"
+    "mem-link new-link"
+    "web-link ana-link";
+  text-align: center;
+  padding-top: 2%;
 }
 #project-nav a {
-  border: 1px solid #90876b;
+  background-color: #CA6378; /* BACKGROUND COLOR CODE */
+  border: 2px solid #9B3E5C;
   border-radius: 0.5em;
-  padding: 1%;
+  padding: 0.178em 0.563em;
+  text-align: center;
 }
 #project-nav li {
-  padding: 0.178em 0.563em;
-  line-height: 1.3em;
+  font-size: 1.2em;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2.5%;
+  margin-bottom: 6%;
+  padding: 2%;
+}
+#pro-bus {
+  grid-area: bus-link;
+  text-shadow: 1px 1px black;
+}
+#pro-rac {
+  grid-area: rac-link;
+  text-shadow: 1px 1px black;
+}
+#pro-fly {
+  grid-area: fly-link;
+  text-shadow: 1px 1px black;
+}
+#pro-log {
+  grid-area: log-link;
+  text-shadow: 1px 1px black;
+}
+#pro-mem {
+  grid-area: mem-link;
+  text-shadow: 1px 1px black;
+}
+#pro-new {
+  grid-area: new-link;
+  text-shadow: 1px 1px black;
+}
+#pro-web {
+  grid-area: web-link;
+  text-shadow: 1px 1px black;
+}
+#pro-ana {
+  grid-area: ana-link;
+  text-shadow: 1px 1px black;
 }
 /*style for social media links*/
 #email {
