@@ -156,6 +156,7 @@ h3 {
   font-size: 1.999em;
   line-height: 1.3em;
   text-shadow: 1px 1px black;
+  padding-left: 3%;
 }
 article p {
   color: #EBE8FF;
@@ -181,13 +182,14 @@ article p {
   font-size: 1.125em;
   line-height: 1.3em;
   padding: 3%;
+  list-style: none;
 }
 #hobbies-list > li {
   color: #EBE8FF;
   font-family: "EB Garamond", serif;
   font-size: 1.125em;
   line-height: 1.3em;
-  list-style: circle;
+  list-style: none;
   padding: 1.5%;
 }
 b {
@@ -285,7 +287,6 @@ a[href="#ssci"] {
   grid-area: ssci-link;
   text-shadow: 1px 1px black;
 }
-
 .class-name-link {
   font-size: 1.125em;
   line-height: 1.3em;
@@ -380,4 +381,92 @@ and its content*/
 #back a:active {
   background-color: rgba(149, 20, 30, 0.7); /* BACKGROUND COLOR CODE */
   color: #EBE8FF;
+}
+@media screen and (min-width: 500px) {
+  img {
+    max-width: 80%;
+    padding-left: 10%;
+  }
+  #main-nav li {
+    margin-top: 0%;
+    margin-bottom: 5%;
+  }
+  #project-nav li {
+    margin-top: 0%;
+    margin-bottom: 3%;
+  }
+  #course-nav li {
+    margin-top: 0%;
+    margin-bottom: 3%;
+  }
+  figcaption {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  html {
+    padding: 2%;
+  }
+  article p {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  #skill-list {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  #dog-list li {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  #hobbies-list > li {
+    padding-left: 6%;
+    padding-right: 6%;
+    list-style: none;
+  }
+}
+@media screen and (min-width: 750px) {
+  #navigation {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "home-link edu-link skill-link "
+      "hobbies-link dogs-link library-link"
+      "speech-link courses-link projects-link";
+  }
+  #main-nav li {
+    margin-top: 2.5%;
+    margin-bottom: 6%;
+  }
+  #project-nav li {
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+  #course-nav li {
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+  #back {
+    font-size: 1.5em;
+  }
+  img {
+    max-width: 60%;
+    padding-left: 20%;
+  }
+  #course-list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "com-link cs-link econ-link"
+      "hist-link ipro-link itmd-link"
+      "math-link phil-link ps-link"
+      "psyc-link soc-link ssci-link";
+  }
+  #project-list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "bus-link rac-link fly-link"
+      "log-link mem-link new-link"
+      "web-link ana-link";
+  }
+  html {
+    padding: 5%;
+  }
 }
