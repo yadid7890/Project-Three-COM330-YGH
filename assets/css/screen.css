@@ -562,7 +562,7 @@ and its content*/
     padding-left: 10%;
   }
   #skill-list {
-    font-size: 1.333em;
+    font-size: 1.777em;
     padding-left: 10%;
   }
   #dog-list li {
@@ -594,5 +594,20 @@ and its content*/
   figcaption {
     padding-left: 30%;
     padding-right: 30%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  video {
+    padding-left: 40%;
+  }
+  h1 {
+    font-size: 5.61em;
+    padding-left: 10%;
+  }
+  h3 {
+    font-size: 2.369em
+  }
+  footer {
+    padding-left: 10%;
   }
 }
