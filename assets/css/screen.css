@@ -181,7 +181,10 @@ article p {
   font-family: "EB Garamond", serif;
   font-size: 1.125em;
   line-height: 1.3em;
-  padding: 3%;
+  padding-top: 1%;
+  padding-right: 3%;
+  padding-bottom: 1%;
+  padding-left: 3%;
   list-style: none;
 }
 #hobbies-list > li {
@@ -295,6 +298,61 @@ a[href="#ssci"] {
   color: #EBE8FF;
   padding: 3%;
 }
+/*code for courses page content*/
+#courses-box {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas:
+  "com-box"
+  "cs-box"
+  "econ-box"
+  "hist-box"
+  "ipro-box"
+  "itmd-box"
+  "math-box"
+  "phil-box"
+  "ps-box"
+  "psyc-box"
+  "soc-box"
+  "ssci-box";
+}
+#com {
+  grid-area: com-box;
+}
+#cs {
+  grid-area: cs-box;
+}
+#econ {
+  grid-area: econ-box;
+}
+#hist {
+  grid-area: hist-box;
+}
+#ipro {
+  grid-area: ipro-box;
+}
+#itmd {
+  grid-area: itmd-box;
+}
+#math {
+  grid-area: math-box;
+}
+#phil {
+  grid-area: phil-box;
+}
+#ps {
+  grid-area: ps-box;
+}
+#psyc {
+  grid-area: psyc-box;
+}
+#soc {
+  grid-area: soc-box;
+}
+#ssci {
+  grid-area: ssci-box;
+}
+
 /*code for projects page's navigation bar
 and its content*/
 #project-list {
@@ -445,11 +503,18 @@ and its content*/
     margin-bottom: 3%;
   }
   #back {
-    font-size: 1.5em;
+    font-size: 1.777em;
   }
   img {
     max-width: 60%;
     padding-left: 20%;
+  }
+  figcaption {
+    line-height: 1.3em;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2%;
+    padding-top: 2%;
   }
   #course-list {
     grid-template-columns: repeat(3, 1fr);
@@ -468,5 +533,66 @@ and its content*/
   }
   html {
     padding: 5%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 4.209em;
+  }
+  #main-nav li {
+    font-size: 2.369em;
+  }
+  #project-nav li {
+    font-size: 1.333em;
+  }
+  #course-nav li {
+    font-size: 1.333em;
+  }
+  #foot-text {
+    font-size: 3.157em;
+  }
+  #list-of-media {
+    font-size: 1.777em;
+  }
+  #back {
+    font-size: 2.369em;
+  }
+  article p {
+    font-size: 1.333em;
+    padding-left: 10%;
+  }
+  #skill-list {
+    font-size: 1.333em;
+    padding-left: 10%;
+  }
+  #dog-list li {
+    font-size: 1.333em;
+    padding-left: 10%;
+  }
+  #hobbies-list > li {
+    font-size: 1.333em;
+    padding-left: 10%;
+  }
+  figcaption {
+    font-size: 1.125em;
+  }
+  #courses-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "com-box cs-box"
+    "econ-box hist-box"
+    "ipro-box itmd-box"
+    "math-box phil-box"
+    "ps-box psyc-box"
+    "soc-box ssci-box";
+  }
+  img {
+    max-width: 40%;
+    padding-left: 30%;
+  }
+  figcaption {
+    padding-left: 30%;
+    padding-right: 30%;
   }
 }
