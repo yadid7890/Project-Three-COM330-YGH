@@ -26,8 +26,8 @@ figcaption {
   padding: 3%;
 }
 video {
-  max-width: 100%;
-  padding: 3%;
+  width: 350px;
+  padding-left: 4%;
 }
 /*Grid code for main navigation*/
 #navigation {
@@ -445,6 +445,10 @@ and its content*/
   color: #EBE8FF;
 }
 @media screen and (min-width: 500px) {
+  video {
+    width: 400px;
+    padding-left: 8%;
+  }
   img {
     max-width: 80%;
     padding-left: 10%;
@@ -487,6 +491,9 @@ and its content*/
   }
 }
 @media screen and (min-width: 750px) {
+  video {
+    padding-left: 20%;
+  }
   #navigation {
     grid-template-areas:
       "home-link edu-link skill-link "
@@ -540,6 +547,10 @@ and its content*/
   }
 }
 @media screen and (min-width: 1000px) {
+  video {
+    width: 500px;
+    padding-left: 25%;
+  }
   h1 {
     font-size: 4.209em;
   }
@@ -579,6 +590,8 @@ and its content*/
   }
   figcaption {
     font-size: 1.125em;
+    padding-left: 30%;
+    padding-right: 30%;
   }
   #courses-box {
     display: grid;
@@ -591,18 +604,32 @@ and its content*/
     "ps-box psyc-box"
     "soc-box ssci-box";
   }
+  .class-list {
+    background: none;
+  }
   img {
     max-width: 40%;
     padding-left: 30%;
   }
-  figcaption {
-    padding-left: 30%;
-    padding-right: 30%;
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  #gallery li {
+    flex: 1 1 400px;
+  }
+  #gallery img {
+    max-width: 90%;
+    padding-left: 5%;
+  }
+  #gallery figcaption {
+    padding-left: 5%;
   }
 }
 @media screen and (min-width: 1300px) {
   video {
-    padding-left: 40%;
+    padding-left: 30%;
   }
   h1 {
     font-size: 5.61em;
@@ -614,16 +641,37 @@ and its content*/
   footer {
     padding-left: 10%;
   }
-  #gallery {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
+  #gallery li {
+    flex: 1 1 350px;
   }
+}
+@media screen and (min-width: 1500px) {
+  video {
+    padding-left: 35%;
+  }
+  .video figcaption {
+    padding-left: 35%;
+  }
+  #main-nav li {
+    margin-bottom: 3%;
+  }
+  #gallery li {
+    flex: 1 1 400px;
+  }
+}
+@media screen and (min-width: 1789px) {
   #gallery li {
     flex: 1 1 500px;
   }
-  #gallery img {
-    max-width: 80%;
-    padding-left: 10%;
+  #courses-box {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "com-box cs-box econ-box"
+    "hist-box ipro-box itmd-box"
+    "math-box phil-box ps-box"
+    "psyc-box soc-box ssci-box";
+  }
+  .class-name-link {
+    font-size: 1.333em;
   }
 }
