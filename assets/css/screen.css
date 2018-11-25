@@ -554,6 +554,9 @@ and its content*/
   h1 {
     font-size: 4.209em;
   }
+  #courses-box h3 {
+    text-align: center;
+  }
   #main-nav li {
     font-size: 2.369em;
   }
@@ -606,6 +609,7 @@ and its content*/
   }
   .class-list {
     background: none;
+    padding-left: 15%;
   }
   img {
     max-width: 40%;
