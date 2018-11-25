@@ -40,8 +40,8 @@ video {
     "hobbies-link dogs-link"
     "library-link speech-link"
     "courses-link projects-link";
-    padding-top: 2%;
-    text-align: center;
+  padding-top: 2%;
+  text-align: center;
 }
 /* code for page links*/
 a {
@@ -307,18 +307,18 @@ a[href="#ssci"] {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-areas:
-  "com-box"
-  "cs-box"
-  "econ-box"
-  "hist-box"
-  "ipro-box"
-  "itmd-box"
-  "math-box"
-  "phil-box"
-  "ps-box"
-  "psyc-box"
-  "soc-box"
-  "ssci-box";
+    "com-box"
+    "cs-box"
+    "econ-box"
+    "hist-box"
+    "ipro-box"
+    "itmd-box"
+    "math-box"
+    "phil-box"
+    "ps-box"
+    "psyc-box"
+    "soc-box"
+    "ssci-box";
 }
 #com {
   grid-area: com-box;
@@ -432,7 +432,7 @@ and its content*/
 #back {
   background-color: #CA6378; /* BACKGROUND COLOR CODE */
   border: 2px solid #9B3E5C;
-  border-radius: .5em;
+  border-radius: 0.5em;
   color: #F6D6DD;
   float: right;
   font-size: 1.125em;
@@ -600,12 +600,12 @@ and its content*/
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-    "com-box cs-box"
-    "econ-box hist-box"
-    "ipro-box itmd-box"
-    "math-box phil-box"
-    "ps-box psyc-box"
-    "soc-box ssci-box";
+      "com-box cs-box"
+      "econ-box hist-box"
+      "ipro-box itmd-box"
+      "math-box phil-box"
+      "ps-box psyc-box"
+      "soc-box ssci-box";
   }
   .class-list {
     background: none;
@@ -655,7 +655,7 @@ and its content*/
     padding-left: 10%;
   }
   h3 {
-    font-size: 2.369em
+    font-size: 2.369em;
   }
   footer {
     padding-left: 10%;
@@ -694,10 +694,10 @@ and its content*/
   #courses-box {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
-    "com-box cs-box econ-box"
-    "hist-box ipro-box itmd-box"
-    "math-box phil-box ps-box"
-    "psyc-box soc-box ssci-box";
+      "com-box cs-box econ-box"
+      "hist-box ipro-box itmd-box"
+      "math-box phil-box ps-box"
+      "psyc-box soc-box ssci-box";
   }
   .class-name-link {
     font-size: 1.333em;
