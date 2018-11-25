@@ -626,6 +626,21 @@ and its content*/
   #gallery figcaption {
     padding-left: 5%;
   }
+  #gallery-lib {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  #gallery-lib li {
+    flex: 1 1 400px;
+  }
+  #gallery-lib img {
+    max-width: 90%;
+    padding-left: 5%;
+  }
+  #gallery-lib figcaption {
+    padding-left: 5%;
+  }
 }
 @media screen and (min-width: 1300px) {
   video {
@@ -644,6 +659,9 @@ and its content*/
   #gallery li {
     flex: 1 1 350px;
   }
+  #gallery-lib li {
+    flex: 1 1 350px;
+  }
 }
 @media screen and (min-width: 1500px) {
   video {
@@ -658,9 +676,15 @@ and its content*/
   #gallery li {
     flex: 1 1 400px;
   }
+  #gallery-lib li {
+    flex: 1 1 400px;
+  }
 }
 @media screen and (min-width: 1789px) {
   #gallery li {
+    flex: 1 1 500px;
+  }
+  #gallery-lib li {
     flex: 1 1 500px;
   }
   #courses-box {
